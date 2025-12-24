@@ -1,0 +1,58 @@
+# ===== Taro / Mini Program =====
+dist/
+deploy_versions/
+.temp/
+
+# WeChat DevTools (local only)
+project.private.config.json
+project.private.config.*.json
+
+# Husky internal (generated)
+.husky/_/
+
+# ===== Dependencies =====
+node_modules/
+.pnp.*
+.pnpm-store/
+
+# Other lockfiles (use pnpm-lock.yaml)
+package-lock.json
+yarn.lock
+npm-shrinkwrap.json
+
+# ===== Logs =====
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# ===== Env =====
+.env
+.env.*
+!.env.example
+
+# ===== Secrets =====
+keys/
+*.key
+*.pem
+
+# ===== Cache =====
+.swc/
+.cache/
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.code-workspace
+*.iml
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+Desktop.ini

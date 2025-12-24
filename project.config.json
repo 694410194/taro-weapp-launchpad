@@ -1,0 +1,15 @@
+{
+  "miniprogramRoot": "./dist",
+  "projectname": "taro-weapp-launchpad",
+  "description": "深圳小王子 xiaowz 出品：面向商业化交付的 Taro 4 微信小程序工程化 Launchpad（React + TypeScript + UnoCSS）。",
+  "appid": "touristappid",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "enhance": false,
+    "compileHotReLoad": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram"
+}
