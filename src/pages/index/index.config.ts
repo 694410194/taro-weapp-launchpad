@@ -1,3 +1,5 @@
 export default definePageConfig({
-  navigationBarTitleText: '启动页',
+  navigationBarTitleText: '小王子 Launchpad',
+  navigationBarBackgroundColor: '#f7f8fa',
+  navigationBarTextStyle: 'black',
 })
