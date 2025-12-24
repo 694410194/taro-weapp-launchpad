@@ -5,6 +5,14 @@
   "description": "深圳小王子 xiaowz 出品：面向商业化交付的 Taro 4 微信小程序工程化 Launchpad（React + TypeScript + UnoCSS）。",
   "license": "MIT",
   "author": "深圳小王子 (xiaowz)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/694410194/taro-weapp-launchpad.git"
+  },
+  "bugs": {
+    "url": "https://github.com/694410194/taro-weapp-launchpad/issues"
+  },
+  "homepage": "https://github.com/694410194/taro-weapp-launchpad#readme",
   "packageManager": "pnpm@10.23.0",
   "engines": {
     "node": ">=18.18.0"

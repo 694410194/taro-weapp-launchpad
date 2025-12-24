@@ -1,9 +1,6 @@
 import Taro from '@tarojs/taro'
 
-export function toast(
-  title: string,
-  options?: Omit<Taro.showToast.Option, 'title'>,
-) {
+export function toast(title: string, options?: Omit<Taro.showToast.Option, 'title'>) {
   return Taro.showToast({
     title,
     icon: 'none',

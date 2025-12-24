@@ -9,10 +9,7 @@
 ![license](https://img.shields.io/badge/license-MIT-green.svg)
 ![node](https://img.shields.io/badge/node-%3E%3D18.18.0-brightgreen)
 ![pnpm](https://img.shields.io/badge/pnpm-10-blue)
-
-> 可选：把下面 CI Badge 的 `OWNER/REPO` 改成你的仓库地址后再启用
->
-> <!-- ![CI](https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg) -->
+[![CI](https://github.com/694410194/taro-weapp-launchpad/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/694410194/taro-weapp-launchpad/actions/workflows/ci.yml)
 
 ## 你将获得什么
 
@@ -81,6 +78,25 @@ pnpm dev:weapp
 - **路径别名**：默认 `@/*` 指向 `src/*`（见 `tsconfig.json`）
 - **UnoCSS**：入口已引入 `uno.css`，配置见 `unocss.config.ts`（小程序下支持 `rem <=> rpx` 转换）
 - **小程序 CI 上传（可选）**：`scripts/upload-weapp.mjs` 基于 `miniprogram-ci`，默认上传 `dist/`（可用 `MINIPROGRAM_PROJECT_PATH` 覆盖）
+
+## 提交规范
+
+本项目使用约定式提交（Conventional Commits），提交信息格式：
+
+`<type>(<scope>): <subject>`
+
+其中 `scope` 可省略，`subject` 建议用中文、动词开头。
+
+可用类型：
+
+- `feat`: 新功能
+- `fix`: 修复Bug
+- `docs`: 文档更新
+- `style`: 代码风格调整
+- `refactor`: 代码重构
+- `perf`: 性能优化
+- `test`: 测试代码
+- `chore`: 构建或工具变动
 
 ## 代码组织建议（避免屎山的关键）
 

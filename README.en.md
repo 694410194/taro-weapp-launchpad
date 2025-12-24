@@ -4,6 +4,11 @@
 
 Made by Shenzhen Xiaowangzi (xiaowz) — a production-ready, opinionated starter for **WeChat Mini Program (weapp)** with **Taro 4 + React + TypeScript**.
 
+![license](https://img.shields.io/badge/license-MIT-green.svg)
+![node](https://img.shields.io/badge/node-%3E%3D18.18.0-brightgreen)
+![pnpm](https://img.shields.io/badge/pnpm-10-blue)
+[![CI](https://github.com/694410194/taro-weapp-launchpad/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/694410194/taro-weapp-launchpad/actions/workflows/ci.yml)
+
 ## Features
 
 - WeApp-only by default (no multi-target complexity)
