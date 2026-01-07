@@ -67,7 +67,7 @@
     "@babel/plugin-transform-class-properties": "7.25.9",
     "@babel/preset-react": "^7.24.1",
     "@commitlint/cli": "^19.8.1",
-    "@commitlint/config-conventional": "^19.8.1",
+    "@commitlint/config-conventional": "^20.3.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.5",
     "@tarojs/cli": "4.1.9",
     "@tarojs/plugin-generator": "4.1.9",
